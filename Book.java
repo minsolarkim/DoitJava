@@ -1,36 +1,36 @@
 package array;
 
 public class Book {
-	
 	private String bookName;
 	private String author;
 	
-	public Book() {} //ë””í´íŠ¸ ìƒì„±ì
+	public Book() {} //µğÆúÆ® »ı¼ºÀÚ
 	
-	//ì±… ì´ë¦„ê³¼ ì €ì ì´ë¦„ì„ ë§¤ê°œë³€ìˆ˜ë¡œ ë°›ëŠ” ìƒì„±ì
-	public Book(String bookName, String author) { 
-		this.bookName = bookName; 
+	public Book(String bookName, String author) {
+		this.bookName = bookName;
 		this.author = author;
 	}
-	
-	public String getBookName()	{
+	//Ã¥ ÀÌ¸§°ú ÀúÀÚ ÀÌ¸§À» ¸Å°³º¯¼ö·Î ¹Ş´Â »ı¼ºÀÚ
+
+	//get set
+	public String getBookName() {
 		return bookName;
 	}
-	
+
 	public void setBookName(String bookName) {
 		this.bookName = bookName;
 	}
-	
+
 	public String getAuthor() {
 		return author;
 	}
-	
-	public void setAuthor(String Author) {
+
+	public void setAuthor(String author) {
 		this.author = author;
 	}
 	
 	public void showBookInfo() {
-		System.out.println(bookName + ", "+author);
+		System.out.println(bookName + " - " + author);
 	}
 	
 	

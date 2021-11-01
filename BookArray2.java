@@ -3,25 +3,22 @@ package array;
 public class BookArray2 {
 
 	public static void main(String[] args) {
-
 		Book[] library = new Book[5];
 		
-		library[0] = new Book("íƒœë°±ì‚°ë§¥", "ì¡°ì •ë˜");
-		library[1] = new Book("ë°ë¯¸ì•ˆ", "í—¤ë¥´ë§Œ í—¤ì„¸");
-		library[2] = new Book("ì–´ë–»ê²Œ ì‚´ ê²ƒì¸ê°€", "ìœ ì‹œë¯¼");
-		library[3] = new Book("í† ì§€", "ë°•ê²½ë¦¬");
-		library[4] = new Book("ì–´ë¦° ì™•ì", "ìƒí…ì¥ë² ë¦¬");
+		library[0] = new Book("ÅÂ¹é»ê¸Æ", "Á¶Á¤·¡");
+		library[1] = new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼");
+		library[2] = new Book("¾î¶»°Ô »ì °ÍÀÎ°¡", "À¯½Ã¹Î");
+		library[3] = new Book("ÅäÁö", "¹Ú°æ¸®");
+		library[4] = new Book("¾î¸°¿ÕÀÚ", "»ıÅÃÁãÆä¸®");
 		
-		// ì±… ì´ë¦„, ì €ì ì¶œë ¥ 
 		for(int i = 0; i < library.length; i++) {
 			library[i].showBookInfo();
 		}
 		
-		//ë©”ëª¨ë¦¬ ê³µê°„ ì£¼ì†Œ ì¶œë ¥
 		for(int i = 0; i < library.length; i++) {
 			System.out.println(library[i]);
 		}
-		
+
 	}
 
 }
